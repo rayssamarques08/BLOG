@@ -36,13 +36,18 @@ main {
     justify-content: space-evenly;
     gap: 8px;
 
+
 }
 
 aside {
-    width: 30%;
+    width: 35%;
+    height: 600px;
     background-color: #144D53;
     padding: 20px;
     border-radius: 30px;
+    margin-bottom: 15px;
+    line-height: 2.0;
+
 }
 
 article {
@@ -50,7 +55,25 @@ article {
     background-color: #144D53;
     padding: 20px;
     border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
 
+
+}
+
+.historia {
+    width: 60%;
+}
+
+#principal {
+    
+}
+
+figure {
+    width: 30%;
 }
 
 section {
@@ -74,10 +97,7 @@ address {
         font-size: 20px;
         gap: 10px;
     }
-video{
-    width: 100%;
-}
-}
+
 
 @media (max-width:600px) {
     body {
@@ -92,9 +112,8 @@ video{
         height: 300px;
         width: 200px;
     }
-    video{
-        width: 100%;
-    }
+
+    
 }
 
 @media (min-width:600px) and (max-width:1600px) {
@@ -111,9 +130,7 @@ video{
         width: 250px;
     }
 
-    video {
-        width: 100%;
-    }
+  
 }
 
 nav {
@@ -134,4 +151,58 @@ a {
 
 ul {
     color: #1A3C40;
+}
+
+mark {
+    background-color: #857474;
+    color: white;
+
+}
+
+h3 {
+    background-color: #E4EDDB;
+    color: #144D53;
+    border-radius: 15px;
+}
+
+section p {
+    color: #1A3C40;
+}
+
+section h1 {
+    color: #857474;
+}
+
+form {
+    background-color: #144D53;
+    gap: 10px;
+}
+
+input {
+    background-color: #E4EDDB;
+}
+
+.insta {
+    height: 48px;
+    width: 48px;
+}
+
+.linke {
+    height: 48px;
+    width: 48px;
+}
+
+.enve {
+    height: 48px;
+    width: 48px;
+
+}
+
+blockquote {
+    color: #307672;
+    border-left: 10px solid #307672;
+    height: 50px;
+    padding-left: 10px;
+    margin-bottom: auto;
+    line-height: 1.5;
 }
