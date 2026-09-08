@@ -68,9 +68,7 @@ article {
     width: 60%;
 }
 
-#principal {
-    
-}
+#principal {}
 
 figure {
     width: 30%;
@@ -99,110 +97,110 @@ address {
     }
 
 
-@media (max-width:600px) {
-    body {
+    @media (max-width:600px) {
+        body {
+            background-color: #E4EDDB;
+            padding: 10px 20px;
+            font-size: 20px;
+            gap: 8px;
+
+        }
+
+        img {
+            height: 300px;
+            width: 200px;
+        }
+
+
+    }
+
+    @media (min-width:600px) and (max-width:1600px) {
+        body {
+            background-color: #E4EDDB;
+            padding: 20px 40px;
+            font-size: 18px;
+            gap: 8px;
+
+        }
+
+        img {
+            height: 350px;
+            width: 250px;
+        }
+
+
+    }
+
+    nav {
+        background-color: #8f5757;
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        padding: 7px;
+
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+    ul {
+        color: #1A3C40;
+    }
+
+    mark {
+        background-color: #857474;
+        color: white;
+
+    }
+
+    h3 {
         background-color: #E4EDDB;
-        padding: 10px 20px;
-        font-size: 20px;
-        gap: 8px;
-
+        color: #144D53;
+        border-radius: 15px;
     }
 
-    img {
-        height: 300px;
-        width: 200px;
+    section p {
+        color: #1A3C40;
     }
 
-    
-}
+    section h1 {
+        color: #857474;
+    }
 
-@media (min-width:600px) and (max-width:1600px) {
-    body {
+    form {
+        background-color: #144D53;
+        gap: 10px;
+    }
+
+    input {
         background-color: #E4EDDB;
-        padding: 20px 40px;
-        font-size: 18px;
-        gap: 8px;
+    }
+
+    .insta {
+        height: 48px;
+        width: 48px;
+    }
+
+    .linke {
+        height: 48px;
+        width: 48px;
+    }
+
+    .enve {
+        height: 48px;
+        width: 48px;
 
     }
 
-    img {
-        height: 350px;
-        width: 250px;
+    blockquote {
+        color: #307672;
+        border-left: 10px solid #307672;
+        height: 50px;
+        padding-left: 10px;
+        margin-bottom: auto;
+        line-height: 1.5;
     }
-
-  
-}
-
-nav {
-    background-color: #8f5757;
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-    padding: 7px;
-
-
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-}
-
-ul {
-    color: #1A3C40;
-}
-
-mark {
-    background-color: #857474;
-    color: white;
-
-}
-
-h3 {
-    background-color: #E4EDDB;
-    color: #144D53;
-    border-radius: 15px;
-}
-
-section p {
-    color: #1A3C40;
-}
-
-section h1 {
-    color: #857474;
-}
-
-form {
-    background-color: #144D53;
-    gap: 10px;
-}
-
-input {
-    background-color: #E4EDDB;
-}
-
-.insta {
-    height: 48px;
-    width: 48px;
-}
-
-.linke {
-    height: 48px;
-    width: 48px;
-}
-
-.enve {
-    height: 48px;
-    width: 48px;
-
-}
-
-blockquote {
-    color: #307672;
-    border-left: 10px solid #307672;
-    height: 50px;
-    padding-left: 10px;
-    margin-bottom: auto;
-    line-height: 1.5;
-}
