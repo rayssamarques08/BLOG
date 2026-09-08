@@ -68,7 +68,7 @@ article {
     width: 60%;
 }
 
-#principal {}
+
 
 figure {
     width: 30%;
@@ -83,7 +83,7 @@ section {
 }
 
 address {
-    background-color: #1A3C40;
+    background-color:#E4EDDB;
     padding: 20px;
     border-radius: 30px;
 }
@@ -132,7 +132,7 @@ address {
     }
 
     nav {
-        background-color: #8f5757;
+        background-color: #857474;
         display: flex;
         justify-content: space-around;
         width: 30%;
@@ -202,5 +202,9 @@ address {
         height: 50px;
         padding-left: 10px;
         margin-bottom: auto;
-        line-height: 1.5;
+        line-height: 2.0;
+        font-size: 19px;
+    }
+    h2{
+        color: #1A3C40;
     }
